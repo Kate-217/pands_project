@@ -20,6 +20,8 @@ The goal of the project is to demonstrate the use of Python for data analysis. A
 To get to know my project, please ensure that you have Python and [Visual Studio Code](https://code.visualstudio.com/) installed. 
 I worked on my analysis using **Jupyter Notebook**, but you can use a different editor to open it.
 
+The Jupyter Notebook contains cells with Python code and cells with Markdown text where I added comments during the analysis.
+
 To open my project with **Google colab** you can use the [link](https://colab.research.google.com/github/Kate-217/pands_project/blob/main/iris.ipynb) that was generated with [Open in Colab](https://openincolab.com/).
 
 It is necessary to install additional modules such as Numpy, Pandas, Matplotlib, and Seaborn. One of the easiest ways to obtain them is by installing [Anaconda](https://www.anaconda.com/download).
@@ -27,10 +29,7 @@ It is necessary to install additional modules such as Numpy, Pandas, Matplotlib,
 The original **Iris dataset** was taken from [here](https://archive.ics.uci.edu/dataset/53/iris).
 
 
-
-It is necessary to install additional modules such as Numpy, Pandas, Matplotlib, and Seaborn. One of the easiest ways to obtain them is by installing [Anaconda](https://www.anaconda.com/download).
 ## Getting help
-
 
 If you've got any questions, reach out to me via this [link](https://github.com/Kate-217/pands_project/issues/new)
 
