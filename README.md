@@ -2,7 +2,7 @@
 
 ***
 
-Iris flower dataset is a famous material which has been used and analyzed uncountable times by students all over the world. The British statistician and biologist Ronald Fisher created it in 1936 year as an example of linear discriminant analysis. Since then this data set has become a classical material for demonstarion statistical algorithms.
+The Iris flower dataset is a well-known collection of data that has been used and analyzed countless times by students all around the globe. It was created by Ronald Fisher, a British statistician and biologist, back in 1936 as an example of linear discriminant analysis. Since then, this dataset has been widely used as a classic material for demonstrating statistical algorithms.
 
 ***
 
