@@ -47,3 +47,4 @@ Here I publish all the internet resources I used working on my project.
 1. [https://en.wikipedia.org/wiki/Iris_flower_data_set](https://en.wikipedia.org/wiki/Iris_flower_data_set)
 2. [https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
 
+3. [https://www.geeksforgeeks.org/pandas-dataframe-duplicated/](https://www.geeksforgeeks.org/pandas-dataframe-duplicated/)
