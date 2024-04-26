@@ -1,3 +1,27 @@
-Titile: Iris
-Sourse : https://archive.ics.uci.edu/dataset/53/iris
-License: This dataset is licensed under a [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode) (CC BY 4.0) license. This allows for the sharing and adaptation of the datasets for any purpose, provided that the appropriate credit is given. 
+Titile: The Iris flower data set
+Creator: R. A. Fisher
+
+Sourse : The UCI Machine Learning Repository https://archive.ics.uci.edu/dataset/53/iris
+
+License: This dataset is licensed under a Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/legalcode) (CC BY 4.0) license. This allows for the sharing and adaptation of the datasets for any purpose, provided that the appropriate credit is given. 
+_______________________________________________
+Data description:
+
+The dataset contains 150 instances, each of which represents one of three classes of Iris flowers.
+
+Each class contains 50 instances.
+
+The names for the classes are Iris-virginica, Iris-setosa and Iris-versicolor.
+
+The dataset stores the following information about the flowers: 
+
+sepal length, sepal width, petal length and petal with. 
+I will use the following attributes for this project:
+
+
+"sep_length","sep_width","pet_length","pet_width","class"
+
+The types of variables:
+
+"sep_length","sep_width","pet_length","pet_width" - Continuous (Float), cm 
+"class" - Categorical (String)
