@@ -48,3 +48,5 @@ Here I publish all the internet resources I used working on my project.
 2. [https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
 
 3. [https://www.geeksforgeeks.org/pandas-dataframe-duplicated/](https://www.geeksforgeeks.org/pandas-dataframe-duplicated/)
+4. [https://www.datacamp.com/tutorial/how-to-make-a-seaborn-histogram](https://www.datacamp.com/tutorial/how-to-make-a-seaborn-histogram)
+5. [https://seaborn.pydata.org/generated/seaborn.histplot.html#seaborn-histplot](https://seaborn.pydata.org/generated/seaborn.histplot.html#seaborn-histplot)
