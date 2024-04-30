@@ -41,5 +41,18 @@ plt.close()
                 
     
     
+def plot_hist_hue(data, column, hue):
     
-    
+    for feature in data[column]:
+        plt.figure(figsize=(6,6))
+        plot = sns.histplot(data=data, x= data[column], hue = hue , multiple = 'dodge')
+        plt.title(f'Comparative distribution of {column}')
+        plt.xlabel(f'{column},mm')
+        plt.ylabel('Frequency')
+        with open('hists.png','+ab') as f:
+        #Ensure you have matplotlib installed.
+        #Here plt is your matplotlib.pyplot import
+            plt.savefig('hists.png')
+            plt.close()
+plot_hist_hue(data, column= "sep_length", hue = 'class') 
+#plot_hist_hue(data, column= "sep_width", hue = 'class')           
