@@ -20,39 +20,28 @@ with open("variable_summary", "a") as f:
     
 # creating histograms:
 
+ 
+def plot_hist_hue(data, column, hue):  
+    sns.histplot(data=data, x= data[column], hue = hue , multiple = 'dodge')
+    plt.title(f'Comparative distribution of {column}')
+    plt.xlabel(f'{column},mm')
+    plt.ylabel('Frequency')
 
-plt.figure(figsize=(18, 12))  
+fig, axs = plt.subplots(2, 2, figsize=(12, 12))  
+plt.subplot(2,2,1)
+plot_hist_hue(data=data, column = 'sep_length', hue = 'class')
 
-for i, feature in enumerate(data):
-    if feature != 'class':# excluding the last column
-        # 2 row, 2 col, i+1 means that each iterration it creates new subplot in 
-        # the 2x2 grid
-        plt.subplot(2, 2, i+1)  
-        sns.histplot(data=data, x=data[feature], hue='class', multiple='dodge')
-        plt.title(f"Comparative distribution of {feature} across the classes")
-        plt.xlabel(f'{feature}, mm')
-        plt.ylabel('Frequency')
+plt.subplot(2,2,2)
+plot_hist_hue(data=data, column = 'sep_width', hue = 'class')
 
-plt.tight_layout()  # Adjust layout to make sure everything fits without overlapping
+plt.subplot(2,2,3)
+plot_hist_hue(data=data, column = 'pet_length', hue = 'class')
+
+plt.subplot(2,2,4)
+plot_hist_hue(data=data, column = 'pet_width', hue = 'class')
+
 plt.savefig('histograms.png')
-plt.close()  
-          
-                
-                
-    
-    
-def plot_hist_hue(data, column, hue):
-    
-    for feature in data[column]:
-        plt.figure(figsize=(6,6))
-        plot = sns.histplot(data=data, x= data[column], hue = hue , multiple = 'dodge')
-        plt.title(f'Comparative distribution of {column}')
-        plt.xlabel(f'{column},mm')
-        plt.ylabel('Frequency')
-        with open('hists.png','+ab') as f:
-        #Ensure you have matplotlib installed.
-        #Here plt is your matplotlib.pyplot import
-            plt.savefig('hists.png')
-            plt.close()
-plot_hist_hue(data, column= "sep_length", hue = 'class') 
-#plot_hist_hue(data, column= "sep_width", hue = 'class')           
+plt.close()
+
+
+        
