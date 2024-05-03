@@ -28,8 +28,6 @@ It is necessary to install additional modules such as Numpy, Pandas, Matplotlib,
 
 The original **Iris dataset** was taken from [here](https://archive.ics.uci.edu/dataset/53/iris).
 
-## 
-
 
 ## Getting help
 
@@ -50,3 +48,4 @@ Here I publish all the internet resources I used working on my project.
 3. [https://www.geeksforgeeks.org/pandas-dataframe-duplicated/](https://www.geeksforgeeks.org/pandas-dataframe-duplicated/)
 4. [https://www.datacamp.com/tutorial/how-to-make-a-seaborn-histogram](https://www.datacamp.com/tutorial/how-to-make-a-seaborn-histogram)
 5. [https://seaborn.pydata.org/generated/seaborn.histplot.html#seaborn-histplot](https://seaborn.pydata.org/generated/seaborn.histplot.html#seaborn-histplot)
+6. [https://seaborn.pydata.org/generated/seaborn.pairplot.html](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
