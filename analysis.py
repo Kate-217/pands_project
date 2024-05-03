@@ -47,25 +47,9 @@ plt.savefig('histograms.png')
 plt.close()
 
 # adding scatterplots:
-#with open('scatterplots.png', 'ab') as f:
+
+with open ('sactterplot.png', 'wb') as f:
     
-    #plt.figure()
-    #pd.plotting.scatter_matrix(data[data['class'] == "Iris-setosa"], figsize=(7, 7), color = 'brown')
-    #plt.suptitle('Relationships between variables for Iris -setosa')
-    
-
-def scatter_plot(axs, data, color, flower_class ):
-    pd.plotting.scatter_matrix(data, color = color, axs=[])
-    plt.suptitle(f'Relationships between variables for {flower_class}')
-
-fig, axs = plt.subplots(2, 1, figsize=(20,20)) 
-plt.subplot(2,1,1)
-scatter_plot(data[data['class']=='Iris-setosa'], color='green', flower_class='Iris-setosa', axs=[0])
-
-plt.subplot(2,1,2)
-scatter_plot(data[data['class']=='Iris-virginica'], color='red', flower_class='Iris-virginica',axs =[1])
-
-    
-plt.tight_layout()
-plt.savefig('scatterplots.png')
-plt.close()     
+    sns.pairplot(data, hue='class',diag_kind="hist", corner=True, height=1.8)
+    plt.suptitle('Correlation between the variables and distribution histograms')
+    plt.savefig(f)
