@@ -53,3 +53,4 @@ with open ('sactterplot.png', 'wb') as f:
     sns.pairplot(data, hue='class',diag_kind="hist", corner=True, height=1.8)
     plt.suptitle('Correlation between the variables and distribution histograms')
     plt.savefig(f)
+    
