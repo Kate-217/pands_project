@@ -48,4 +48,9 @@ Here I publish all the internet resources I used working on my project.
 3. [https://www.geeksforgeeks.org/pandas-dataframe-duplicated/](https://www.geeksforgeeks.org/pandas-dataframe-duplicated/)
 4. [https://www.datacamp.com/tutorial/how-to-make-a-seaborn-histogram](https://www.datacamp.com/tutorial/how-to-make-a-seaborn-histogram)
 5. [https://seaborn.pydata.org/generated/seaborn.histplot.html#seaborn-histplot](https://seaborn.pydata.org/generated/seaborn.histplot.html#seaborn-histplot)
-6. [https://seaborn.pydata.org/generated/seaborn.pairplot.html](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
+6. [https://campus.datacamp.com/courses/introduction-to-data-visualization-with-seaborn/customizing-seaborn-plots-4?ex=9](https://campus.datacamp.com/courses/introduction-to-data-visualization-with-seaborn/customizing-seaborn-plots-4?ex=9)
+
+7. [https://seaborn.pydata.org/generated/seaborn.pairplot.html](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
+8. [https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop.html](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop.html)
+9. [https://www.w3schools.com/python/pandas/pandas_correlations.asp#:~:text=The%20corr()%20method%20calculates,%3A%20](https://www.w3schools.com/python/pandas/pandas_correlations.asp#:~:text=The%20corr()%20method%20calculates,%3A%20)
+10. [https://statisticsbyjim.com/graphs/box-plot/](https://statisticsbyjim.com/graphs/box-plot/)
