@@ -6,7 +6,7 @@ import seaborn as sns # for some visualisations
 
 data = pd.read_csv("/Users/katelisovenko/Yandex.Disk.localized/kate/springboard/pands_project/iris/iris.data", names=['sep_length', 'sep_width', 'pet_length','pet_width','class'])
 
-with open("variable_summary", "w") as f:
+with open("variable_summary.txt", "w") as f:
     for column in data:
         f.write(f"Summary description for {column}:\n\n") 
         f.write(str(data[column].describe()) + "\n\n")
@@ -15,9 +15,10 @@ with open("variable_summary", "w") as f:
     
     
 
-with open("variable_summary", "a") as f:
+with open("variable_summary.txt", "a") as f:
     f.write("The summary contains the statistical information about each of the variables.")
     f.write("\n")
+f.close()
     
 # creating histograms:
 
@@ -53,4 +54,4 @@ with open ('sactterplot.png', 'wb') as f:
     sns.pairplot(data, hue='class',diag_kind="hist", corner=True, height=1.8)
     plt.suptitle('Correlation between the variables and distribution histograms')
     plt.savefig(f)
-    
+f.close()    
